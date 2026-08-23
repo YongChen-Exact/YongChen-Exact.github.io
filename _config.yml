@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "citations.jpg"
+  avatar           : "cy.jpg"
   name             : "Yong Chen"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at Sichuan University"
