@@ -11,12 +11,15 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body{% if page.url == "/" %} style="padding-top: 0;"{% endif %}>
+<body{% if page.url == "/" %} style="padding-top: 0;"{% endif %}>
 
-    {% include browser-upgrade.html %}
-    {% unless page.url == "/" %}
+  {% include browser-upgrade.html %}
+
+  {% unless page.url == "/" %}
     {% include masthead.html %}
-    {% endunless %}
+  {% endunless %}
+
+  {{ content }}
 
     {{ content }}
 
